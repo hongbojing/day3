@@ -3,9 +3,90 @@
 <head>
   <meta charset="UTF-8">
   <title>day 3 </title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/myStyle.css">
+  <link rel="stylesheet" href="css/anotherstyle.css">
 </head>
 <body>
+  <div>
+    <h1 class="h1-content">
+      HTML inline elements VS block elements
+    </h1>
+    <p class="center">
+      Half a year ago, I was asked ' what is the difference of "span" tag and "div" tag' , I answered that "span is for storing small things and div is for storing bigger things",
+       because that's my sence for these two tags, after that interview, I googled them and found that span is a inline tag and div is a block tag, I know them, seriously, I know that
+       span is an inline tag and div is a block element tag but for some reason I take that for granted, it was like you breathe the air everyday and you can not tell what are in the air,
+      I think this is a common situation for those developers who just code everyday and do not prepare for the interviews (of course it was my fault that I did not prepare enough for that interview),
+       so I create this page to write some examples about inline tags and block tags, for those who are preparing for an interview, you might use this as an example if you do not know what inline
+        tags and block tags look like.
+    </p>
+    <p class="center">
+      I googled an answer from <a href="http://htmldog.com/guides/html/intermediate/spandiv/" target="_blank">HERE</a>, which says:
+      <i>
+        The difference between span and div is that a span element is in-line and usually used for a small chunk of HTML inside a line (such as inside a paragraph) whereas a div (division) element is block-line (which is basically equivalent to having a line-break before and after it) and used to group larger chunks of code.
+      </i>
+    </p>
+    <h2>The following are block element tags</h2>
+    <address>
+      <b>&lt;adress&gt;</b> tag is block tag
+      <br/>
+      For example: Address: 0000 NW 88 St, Florida
+      <br/>
+      I would use border to display the scale of this block tag.
+    </address>
+
+    <blockquote>
+      <b>&lt;blockquote&gt;</b> tag is block tag
+
+      <br/>
+
+    </blockquote>
+
+    <h3>&lt;dl&gt; tag encloses a list of pairs of terms and descriptions. </h3>
+    <dl>
+      &lt;dl&gt;<br/>
+      <dt>&lt;dt&gt;dt tag identifies a term in a definition list.&lt;/dt&gt;</dt>
+      <dd>&lt;dd&gt;dd tag indicates the description of a term in a description list.
+        &lt;dd&gt;
+      </dd>
+      <br/>&lt;dl&gt;
+    </dl>
+
+    <h3>&lt;fieldset&gt;is used to group several controls as well as labels within a web form.</h3>
+    <form action="test.php" method="get">
+      &lt;fieldset&gt;
+      <fieldset>
+        <legend>This is a form</legend>
+        <input type="radio" name="radio" id="radio"> <label for="radio">I am a radio button in a form, click me</label>&lt;/fieldset&gt;
+      </fieldset>
+
+    </form>
+    <p class="center">
+      Here is a list of block element tags, they all take a whole line space. Of course I use a block tag &lt;ul&gt;&lt;li&gt;&lt;/li&gt;&lt;/ul&gt; to display them.
+    </p>
+    <ul class="center col-md-50">
+      <li>address,article, aside, audio</li>
+      <li>blockquote, canvas, dd, dl, fieldset, figcaption, figure, footer</li>
+      <li>h1,h2,h3,h4,h5,h6, header, hgroup, hr</li>
+      <li> main, nav, noscript, ol, output</li>
+      <li>p, pre, section, table, tfoot, ul, video</li>
+    </ul>
+    <h2>An inline element occupies only the space bounded by the tags that define the inline element.
+
+        The following are inline element tags:
+    </h2>
+    <ul class="center col-md-50">
+      <li>b, big, i, small, tt</li>
+      <li>abbr, acronym, cite, code, dfn, em, kbd, strong, samp, var</li>
+      <li>a, bdo, br, img, map, object, q, script, span, sub, sup</li>
+      <li>button, input, label, select, textarea</li>
+    </ul>
+
+
+
+
+
+  </div>
+
 
 
 </body>
